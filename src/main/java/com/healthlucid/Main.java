@@ -42,7 +42,7 @@ public class Main {
         };
 
         String[] acrOut = getNonHospitalACR(acr, hospital);
-        System.out.println("ACR Hospitals removed from list" + ((acr.length - acrOut.length)/3));
+        System.out.println("ACR Hospitals removed from list :: " + ((acr.length - acrOut.length)/3));
         System.out.println("Final acr List \n" + Arrays.toString(acrOut));
     }
 
